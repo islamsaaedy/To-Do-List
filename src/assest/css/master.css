@@ -1,0 +1,83 @@
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5;
+}
+.container {
+  margin: 10px auto;
+  width: 800px;
+
+  background-color: #036666;
+  padding: 15px;
+}
+.from {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 10px;
+}
+.from .icon {
+  width: 10%;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.Todos {
+  position: relative;
+}
+.todo-form {
+  width: 80%;
+}
+.todo-form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+.todo-form input:focus {
+  background-color: #eee;
+  border-bottom: 2px solid #111;
+  transition: 0.3s linear;
+}
+.Btn {
+  padding: 15px 30px;
+  border: none;
+  background-color: #11e261;
+  color: #fff;
+  height: 46px;
+  margin-left: 30px;
+}
+.List {
+  color: #eee;
+  width: 100%;
+  margin: 0 15px;
+}
+.Todo {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 6px;
+  width: 93%;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #469d89;
+}
+.Todo .todo-text {
+  width: 90%;
+  color: #fff;
+}
+.todo-icon,
+.todo-Button .Del,
+.Edit {
+  cursor: pointer;
+}
+.doen {
+  color: #fff;
+  text-decoration: line-through;
+}
